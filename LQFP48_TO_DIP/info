@@ -1,0 +1,128 @@
+{
+  "uuid": "0f0ecf59cd11323f8db363305119be54",
+  "path": "Offline/LQFP48_TO_DIP",
+  "name": "LQFP48_TO_DIP",
+  "content": "Adapter for the CH32V203C8T6 microcontroller from WCH from LQFP48 to DIP to use it on a breadboard",
+  "created_at": "2025-05-25 02:30:20",
+  "updated_at": "2025-06-04 11:19:12",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0c6c126c55002ebd063fc045e2f437bc",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3e43f7325dfa48eda8edb9f74fb2650a": 1,
+        "599cfec1460b49cda41c39ce7aa64d7e": 4,
+        "7604741d68e84d4088fbff84307ce43c": 1,
+        "fdab4161676b48e988ac26a3535db894": 1,
+        "4e7ebe89ad024619a48bec87c18534db": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          1,
+          "C0603",
+          "C1",
+          {
+            "Manufacturer Part": "C0603B104K500NT",
+            "Manufacturer": "TORCH(火炬)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C478888"
+          }
+        ],
+        [
+          "CH32V203C8T6",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "LQFP48",
+          {
+            "Manufacturer Part": "CH32V203C8T6",
+            "Manufacturer": "WCH(南京沁恒)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3001172"
+          }
+        ],
+        [
+          "10K(103)",
+          1,
+          "0603",
+          "R1",
+          {
+            "Manufacturer Part": "RC0603JR-0710KL",
+            "Manufacturer": "YAGEO",
+            "Supplier": "LCSC",
+            "Supplier Part": "C99198"
+          }
+        ],
+        [
+          "push-button-5mm",
+          1,
+          "PUSH-BUTTON-5MM",
+          "RST",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "FE-HDR1X12/2.54-S",
+          4,
+          "HDR-TH_12P-P2.54_FE-HDR1X12-2.54-S",
+          "U2,U3,U4,U5",
+          {
+            "Manufacturer Part": "Fe-HDR1X12/2.54-S",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900013702"
+          }
+        ]
+      ],
+      "updateTime": 1749028752,
+      "createTime": 1748133021,
+      "histories": [],
+      "created_at": "2025-05-25 02:30:21",
+      "updated_at": "2025-06-04 11:19:12"
+    },
+    {
+      "uuid": "84ed4bf22f4cddd0368110053afaade5",
+      "puuid": "0f0ecf59cd11323f8db363305119be54",
+      "title": "PCB_V01",
+      "filename": "PCB_V01.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3f2cd391a44141928d6bdb8b44f108df": 4,
+        "fd1df27cb59c4e41a80b5c210dbb8b7d": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 1,
+        "37f403b8f2c64219a86a53bf250027c8": 1,
+        "4a13c433861640209b7106f419770da9": 1
+      },
+      "BOM": [],
+      "updateTime": 1749028750,
+      "createTime": 1748133540,
+      "histories": [],
+      "created_at": "2025-05-25 02:39:00",
+      "updated_at": "2025-06-04 11:19:10"
+    }
+  ],
+  "sort": [],
+  "title": "LQFP48_TO_DIP",
+  "foldername": "LQFP48_TO_DIP",
+  "schfilename": "LQFP48_TO_DIP.json",
+  "schfilemtime": 1749028752886
+}
